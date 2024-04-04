@@ -11,27 +11,10 @@ $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-Consider the graph $A$:
-<br>
-$V$  $E$<br>
-$a | b$<br>
-$b | c$<br>
-$c | d$<br>
-$d | a$<br>
-<br>
-Consider the graph $B$:<br>
-$V$  $E$<br>
-$w | x$<br>
-$x | y$<br>
-$y | z$<br>
-$z | w$<br>
-<br>
+
 These graphs have the same number of nodes, which corresponds to bijectivity.<br>
 Lemma: Bijectivity ($V_1 \rightarrow V_2$)<br>
-$f(a) = w$<br>
-$f(b) = x$<br>
-$f(c) = y$<br>
-$f(d) = z$<br>
+In order for a graph to have bijectivity as a property, there must be the same number of nodes in both graphs. Bijectivity means that for every node $x$ in the first graph's set of node $V_1$, there is a corresponding $y$ in the second graph's set of nodes $V_2$.<br>
 This prooves every node in $A$ can be mapped to a unique node in $B$.<br><br>
 A completely connected graph is defined as a graph where every pair of distinct vertices is connected by a pair of unique edges (one in each direction).
 Examining the above graphs, this becomes apparent. <br><br>
