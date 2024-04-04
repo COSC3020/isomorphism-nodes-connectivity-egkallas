@@ -26,7 +26,7 @@ $x | y$<br>
 $y | z$<br>
 $z | w$<br>
 <br>
-These graphs have the same number of nodes, which corrsponds to bijectivity.<br>
+These graphs have the same number of nodes, which corresponds to bijectivity.<br>
 Lemma: Bijectivity ($V_1 \rightarrow V_2$)<br>
 $f(a) = w$<br>
 $f(b) = x$<br>
