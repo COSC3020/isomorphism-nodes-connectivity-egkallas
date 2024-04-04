@@ -43,7 +43,7 @@ $(b, c) \in E_1 \rightarrow (x, y) \in E_2$<br>
 $(c, d) \in E_1 \rightarrow (y, z) \in E_2$<br>
 $(d, a) \in E_1 \rightarrow (z, w) \in E_2$<br><br>
 The above graphs share the same number of nodes (which we can use to prove their bijectivity) and they are both completely connected (which we can use to prove their edge correspondence).<br>
-$\therefor$ if $A$ and $B$ have these properties, they must be isomorphic. 
+$\therefore$ if $A$ and $B$ have these properties, they must be isomorphic. 
 
 
 
