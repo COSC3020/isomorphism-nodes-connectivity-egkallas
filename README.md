@@ -33,15 +33,15 @@ $f(b) = x$<br>
 $f(c) = y$<br>
 $f(d) = z$<br>
 This prooves every node in $G_1$ can be mapped to a unique node in $G_2$.<br>
-A completely connected graph is defined as a graph where every pair of distinct vertices is connected by a pair of unique edges (one in each direction).<br>
+A completely connected graph is defined as a graph where every pair of distinct vertices is connected by a pair of unique edges (one in each direction).
 Examining the above edges, this becomes apparent. <br>
-Since both graph share the same completely connected structure, this indicates edge correspondence. <br>
+Since both graph share the same completely connected structure, this indicates edge correspondence. <br><br>
 Lemma: Edge correspondence ($(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$)<br>
 $(a, b) \in E_1 \rightarrow (w, x) \in E_2$<br>
 $(b, c) \in E_1 \rightarrow (x, y) \in E_2$<br>
 $(c, d) \in E_1 \rightarrow (y, z) \in E_2$<br>
-$(d, a) \in E_1 \rightarrow (z, w) \in E_2$<br>
+$(d, a) \in E_1 \rightarrow (z, w) \in E_2$<br><br>
 The above graphs share the same number of nodes (which we can use to prove their bijectivity) and they are both completely connected (which we can use to prove their edge correspondence).<br>
 $\therefor$ if $A$ and $B$ have these properties, they must be isomorphic. 
 
