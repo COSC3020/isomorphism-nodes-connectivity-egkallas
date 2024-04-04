@@ -10,3 +10,40 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+Consider the graph $A$:
+<br>
+$V$  $E$<br>
+$a | b$<br>
+$b | c$<br>
+$c | d$<br>
+$d | a$<br>
+<br>
+Consider the graph $B$:<br>
+$V$  $E$<br>
+$w | x$<br>
+$x | y$<br>
+$y | z$<br>
+$z | w$<br>
+<br>
+These graphs have the same number of nodes, which corrsponds to bijectivity.<br>
+Lemma: Bijectivity ($V_1 \rightarrow V_2$)<br>
+$f(a) = w$<br>
+$f(b) = x$<br>
+$f(c) = y$<br>
+$f(d) = z$<br>
+This prooves every node in $G_1$ can be mapped to a unique node in $G_2$.<br>
+A completely connected graph is defined as a graph where every pair of distinct vertices is connected by a pair of unique edges (one in each direction).<br>
+Examining the above edges, this becomes apparent. <br>
+Since both graph share the same completely connected structure, this indicates edge correspondence. <br>
+Lemma: Edge correspondence ($(u,v)
+\in E_1$ iff $(f(u),f(v)) \in E_2$)<br>
+$(a, b) \in E_1 \rightarrow (w, x) \in E_2$<br>
+$(b, c) \in E_1 \rightarrow (x, y) \in E_2$<br>
+$(c, d) \in E_1 \rightarrow (y, z) \in E_2$<br>
+$(d, a) \in E_1 \rightarrow (z, w) \in E_2$<br>
+The above graphs share the same number of nodes (which we can use to prove their bijectivity) and they are both completely connected (which we can use to prove their edge correspondence).<br>
+$\therefor$ if $A$ and $B$ have these properties, they must be isomorphic. 
+
+
+
