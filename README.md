@@ -34,7 +34,7 @@ $f(c) = y$<br>
 $f(d) = z$<br>
 This prooves every node in $A$ can be mapped to a unique node in $B$.<br><br>
 A completely connected graph is defined as a graph where every pair of distinct vertices is connected by a pair of unique edges (one in each direction).
-Examining the above edges, this becomes apparent. <br><br>
+Examining the above graphs, this becomes apparent. <br><br>
 Since both graph share the same completely connected structure, this indicates edge correspondence. <br>
 Lemma: Edge correspondence ($(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$)<br>
