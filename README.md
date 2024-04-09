@@ -12,22 +12,9 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 
-These graphs have the same number of nodes, which corresponds to bijectivity.<br>
-Lemma: Bijectivity ($V_1 \rightarrow V_2$)<br>
-In order for a graph to have bijectivity as a property, there must be the same number of nodes in both graphs. Bijectivity means that for every node $x$ in the first graph's set of node $V_1$, there is a corresponding $y$ in the second graph's set of nodes $V_2$.<br>
-This prooves every node in $A$ can be mapped to a unique node in $B$.<br><br>
-A completely connected graph is defined as a graph where every pair of distinct vertices is connected by a pair of unique edges (one in each direction).
-Examining the above graphs, this becomes apparent. <br><br>
-Since both graph share the same completely connected structure, this indicates edge correspondence. <br>
-Lemma: Edge correspondence ($(u,v)
-\in E_1$ iff $(f(u),f(v)) \in E_2$)<br>
-$(a, b) \in E_1 \rightarrow (w, x) \in E_2$<br>
-$(b, c) \in E_1 \rightarrow (x, y) \in E_2$<br>
-$(c, d) \in E_1 \rightarrow (y, z) \in E_2$<br>
-$(d, a) \in E_1 \rightarrow (z, w) \in E_2$<br><br>
-This prooves that for every edge $(u,v)$ in $A$ there is a corresponding edge $(f(u),f(v))$ in $B$.<br><br>
-The above graphs share the same number of nodes (which we can use to prove their bijectivity) and they are both completely connected (which we can use to prove their edge correspondence).<br>
-$\therefore$ if $A$ and $B$ have these properties, they must be isomorphic. 
+Bijectivity means that each unique node in graph $A$ can be mapped to a corresponding unique node in graph $B$. This proves that there are the same number of nodes in both graphs. <br>
+A graph is completely connected when every pair of distinct vertices is connected by a unique edge. <br> 
+If $A$ and $B$ are bijective $(f: V_1 \rightarrow V_2)$  and there exists an edge between each pair of distinct vertices in each graph $((u,v) \in E_1$ iff $(f(u),f(v)) \in E_2)$, then they must be isomorphic.
 
 
 
