@@ -12,7 +12,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 
-Bijectivity means that each unique node in graph $A$ can be mapped to a corresponding unique node in graph $B$. This proves that there are the same number of nodes in both graphs. <br>
+Bijectivity means that each unique node in graph $A$ can be mapped to a corresponding unique node in graph $B$. This means that there must be the same number of nodes in both graphs. <br>
 A graph is completely connected when every pair of distinct vertices is connected by a unique edge. <br> 
 If $A$ and $B$ are bijective $(f: V_1 \rightarrow V_2)$  and there exists an edge between each pair of distinct vertices in each graph $((u,v) \in E_1$ iff $(f(u),f(v)) \in E_2)$, then they must be isomorphic.
 
